@@ -148,7 +148,7 @@ body {
 
   /* Canvas */
 canvas#canvas {
-    background-color: rgb(233, 230, 230);
+    /* background-color: rgb(176, 15, 15); */
     position: absolute;
     top: 50px;
     cursor: crosshair;
