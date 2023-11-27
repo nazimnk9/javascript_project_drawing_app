@@ -59,6 +59,7 @@ eraser.addEventListener("click",() =>{
     isEraser = true;
     brushIcon.style.color = "white";
     eraser.style.color = "black";
+    canvas.style.cursor = 'url("https://assets.dryicons.com/uploads/icon/svg/2338/remove_link.svg") 30 30, auto';
     activeToolEl.textContent = "Eraser";
     currentColor = bucketColor;
     currentSize = 50;
@@ -72,6 +73,7 @@ function switchToBrush(){
     isEraser = false;
     brushIcon.style.color = "black";
     eraser.style.color = "white";
+    canvas.style.cursor = "crosshair"
     activeToolEl.textContent = "Brush";
     currentColor = `#${bucketColorBtn.value}`;
     currentSize = 10;
